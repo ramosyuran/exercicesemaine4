@@ -1,0 +1,19 @@
+.test{
+  width: 50%;
+  background: #ff6666;
+  margin: 30px auto;
+  padding: 20px;
+  color: white;
+}
+
+@media (min-width: 700px) {
+  .test{
+    width: 75%;
+    background: lightgrey;
+    margin: 50px auto;
+    padding: 50px;
+    font-size: 1.5em;
+    color: black;
+  }
+
+}

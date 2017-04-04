@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Form Avances</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+      <section>
+
+      <h1>Exercices Semaine 4</h1>
+
+      <!-- exercice label 1 -->
+
+      <h2>exercice label 1</h2>
+      <label>Votre Pseudo: <input type="text" name="pseudo" placeholder="Votre Pseudo"></label>
+      <label>Mot de passe <input type="password" name="pass" maxlength="12"></label>
+
+      <!-- exercice label 2 --><br>
+
+      <h2>exercice label 2</h2>
+      <label for="mail">email<input type="email" placeholder="exemple@domain.xx" id="mail"></label>
+      <label for="number">nombre<input type="number" id="numeber" min="5" max="12"></label>
+
+      <!-- exercice checkbox 1 --> <br>
+
+      <h2>exercice checkbox 1</h2>
+      <label for="fruit">Fruit</label><input type="checkbox" id="fruit"><br>
+      <label for="legume">legume</label><input type="checkbox" id="legume"><br>
+      <label for="viande">viande</label><input type="checkbox" id="viande"><br>
+      <label for="poisson">poisson</label><input type="checkbox" id="poisson">
+
+      <!-- exercice checkbox 2 --> <br>
+
+      <h2>exercice checkbox 2</h2>
+      <label for="beau">beau<input type="checkbox" id="beau" checked></label>
+      <label for="intelligent">intelligent<input type="checkbox" id="intelligent" checked></label>
+      <label for="curieux">curieux<input type="checkbox" id="curieux"></label>
+      <label for="muscule">musculé<input type="checkbox" id="muscule"></label>
+
+      <!-- exercice checkbox 3 -->
+
+      <h2>choisir un sport</h2>
+      <label for="foot">foot<input type="checkbox" id="foot" checked></label>
+      <label for="gym">gym<input type="checkbox" id="gym"></label>
+      <label for="boxe">box<input type="checkbox" id="boxe" checked ></label>
+      <label for="tennis">tennis<input type="checkbox" id="tennis"></label>
+
+      <!-- Boutton Radio 1 -->
+
+      <h2>Choisir une tranche d'age</h2>
+      <label for="mineuor">Moins de 18 ans</label><input type="radio" id="mineuor" value="Moins de 18 ans" name="age">
+      <label for="major">18 ans - 25 ans</label><input type="radio" id="major" value="18 ans - 25 ans" name="age" checked>
+      <label for="bonne">25 ans - 40 ans</label><input type="radio" id="bonne" value="25 ans - 40 ans" name="age">
+      <label for="vieux">40 ans et plus</label><input type="radio" id="vieux" value="40 ans et plus" name="age">
+
+      <!-- Boutton Radio 2 -->
+
+      <h2>Choisir une ville</h2>
+      <input type="radio" id="lille" value="Lille" name="ville">
+      <label for="lille">Lille</label><br>
+      <input type="radio" id="roubaix" value="Roubaix" name="ville">
+      <label for="roubaix">Roubaix</label><br>
+      <input type="radio" id="tourcoing" value="Tourcoing" name="ville">
+      <label for="tourcoing">Tourcoing</label><br>
+      <input type="radio" id="marcs" value="Marcs" name="ville">
+      <label for="marcs">Marcs</label><br>
+      <input type="radio" id="wattrelos" value="Wattrelos" name="ville">
+      <label for="wattrelos">Wattrelos</label><br>
+      <input type="radio" id="mons" value="Mons" name="ville">
+      <label for="mons">Mons</label>
+
+      <!-- button radio 3 -->
+
+      <h2>Choisir votre animal prefere</h2>
+      <input type="radio" id="chien" value="chien" name="animal">
+      <label for="chien">Chien</label>
+      <input type="radio" id="chat" value="chat" name="animal">
+      <label for="chat">Chat</label>
+      <input type="radio" id="lapin" value="lapin" name="animal" checked>
+      <label for="lapin">Lapin</label>
+      <input type="radio" id="hamster" value="hamster" name="animal">
+      <label for="hamster">Hamster</label>
+
+      <!-- Dropdown 1 -->
+
+      <h2>Dropdown 1</h2>
+      <label for="chanson">Choisi ta chanson</label><select name="chanson" id="chanson">
+        <option>The Weeknd - Wicked games</option>
+        <option>Drake - Marvins room</option>
+        <option>The Weeknd - Tell your friends</option>
+        <option>Drake - Shot for me</option>
+        <option>Drake - Shut it down</option></select>
+
+        <!-- dropdown 2 -->
+
+        <h2>dropdown 2</h2>
+        <label for="aliment">Choisi ton aliment</label>
+        <select id="aliment" name="aliment">
+          <optgroup label="fruit">
+            <option value="pomme">pomme</option>
+            <option value="poire">poire</option>
+            <option value="fraise">fraise</option>
+          </optgroup>
+          <optgroup label="legume">
+            <option value="poireau">poireau</option>
+            <option value="pomme de terre">pomme de terre</option>
+            <option value="hariot">hariot</option>
+          </optgroup>
+        </select>
+
+        <!-- dropdown 3 -->
+
+        <h2>dropdown 3</h2>
+        <label for="film">Choisis ton filme</label>
+        <select id="film">
+        <optgroup label="fantastique">
+          <option value="harry porter">harry porter</option>
+          <option value="seigneur des anneaux">seigneur des anneaux</option>
+        </optgroup>
+        <optgroup label="commedie">
+          <option value="get had">get hard</option>
+          <option value="scary movie">scary movie</option>
+        </optgroup>
+        <optgroup label="action">
+          <option value="fast and furious">fast and furious</option>
+          <option value="rambo">rambo</option>
+        </optgroup>
+        </select>
+
+        <!-- formulaire 1 -->
+
+        <h2>formulaire 1</h2>
+        <form action="" method="post">
+
+          <label for="nom">Nom <input type="text" name="nom" id="nom"></label><br>
+          <label for="prenom">Prenom <input type="text" name="prenon" id="prenom"></label><br>
+          <label for="pass">Mot de passe <input type="password" name="pass" maxlength="20" id="pass"></label><br>
+          <label for="mail">Email <input type="email" name="mail" id="mail"></label><br>
+
+          <label>choisir une/plusiurs marque de voiture:</label><br>
+          <label for="ferrari">ferrari<input type="checkbox" id="ferrari"></label><br>
+          <label for="lambo">lamborghini<input type="checkbox" id="lambo"></label><br>
+          <label for="mercedes">mercedes<input type="checkbox" id="mercedes"></label><br>
+          <label for="audi">audi<input type="checkbox" id="audi"></label><br>
+          <label for="phorse">porshe<input type="checkbox" id="proshe"></label><br>
+
+          <label>Sexe:</label><br>
+          <input type="radio" id="homme" value="homme" name="sexe">
+          <label for="homme">Homme</label><br>
+          <input type="radio" id="femme" value="femme" name="sexe">
+          <label for="femme">Femme</label><br>
+
+          <input type="submit" name="" value="soumettre">
+        </form>
+
+        <!-- formulaire 2 -->
+
+        <h2>formulaire 2</h2>
+        <form action="" method="post">
+
+          <label for="pseudo">Pseudo</label><input type="text" name="pseudo" id="pseudo" autofocus required><br>
+          <label for="pass">Password</label><input type="password" name="pass" id="pass" maxlength="20" required><br>
+          <label for="age">Age</label><input type="number" name="age" id="age" min="18" max="40">
+          <label>vos qualité</label><br>
+          <label for="serieux">serieux</label><input type="checkbox" id="serieux"><br>
+          <label for="ponctuel">ponctuel</label><input type="checkbox" id="ponctuel"><br>
+          <label for="jovial">jovial</label><input type="checkbox" id="jovial"><br>
+          <label for="rigoureux">rigoureux</label><input type="checkbox" id="rigoureux"><br>
+          <label for="drole">drole</label><input type="checkbox" id="drole"><br>
+
+          <label>travaille a la maison:</label><br>
+          <input type="radio" id="oui" value="oui" name="travaille">
+          <label for="oui">oui</label><br>
+          <input type="radio" id="non" value="non" name="travaille">
+          <label for="non">non</label><br>
+          <label for="msg">message</label>
+          <textarea name="msg" id="msg" rows="4" cols="20" placeholder="tapez votre texte ici"></textarea>
+          <br>
+          <input type="submit" name="submit" value="submit">
+
+        </form>
+
+        <!-- formulaire 3 -->
+
+        <h2>formulaire 3</h2>
+        <form action="" method="post">
+
+          <label for="name">Name</label><input type="text" name="name" id="name" autofocus required><br>
+          <label for="email">Email</label><input type="email" name="email" id="email" placeholder="exemple@domain.xx"><br>
+          <label for="age">Age</label><input type="number" name="age" id="age" min="18" max="40"><br>
+          <label for="text">message</label>
+          <textarea name="name" rows="5" cols="20"></textarea><br>
+          <label>Choisissez une/plusieurs langue</label><br>
+          <label for="anglais">Anglais</label><input type="checkbox" id="anglais"><br>
+          <label for="espagnol">Espagnol</label><input type="checkbox" id="espagnol"><br>
+          <label for="italien">Italien</label><input type="checkbox" id="italien"><br>
+
+          <label>choisi votre niveau:</label><br>
+          <input type="radio" id="debutant" value="debutant" name="nivel">
+          <label for="debutant">Debutant</label><br>
+          <input type="radio" id="bon" value="bon" name="nivel">
+          <label for="bon">Bon</label><br>
+          <input type="radio" id="confirme" value="confirme" name="nivel">
+          <label for="confirme">Confirme</label><br>
+
+        </form>
+
+        
+    </section>
+
+  </body>
+
+</html>

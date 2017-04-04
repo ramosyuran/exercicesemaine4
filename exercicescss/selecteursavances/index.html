@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Exercice Sélecteurs avancés</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <table>
+     <caption>Statistiques Saisons régulières</caption>
+     <thead> <!-- En-tête du tableau -->
+         <tr>
+             <th>Saison</th>
+             <th>Club</th>
+             <th>Matchs joués</th>
+             <th>Temps de jeu</th>
+             <th>Points/match</th>
+             <th>Tirs</th>
+             <th>3 points</th>
+             <th>Lancers francs</th>
+             <th>Statistiques par match</th>
+         </tr>
+     </thead>
+     <tfoot> <!-- Pied de tableau -->
+         <tr>
+           <th>Saison</th>
+           <th>Club</th>
+           <th>Matchs joués</th>
+           <th>Temps de jeu</th>
+           <th>Points/match</th>
+           <th>Tirs</th>
+           <th>3 points</th>
+           <th>Lancers francs</th>
+           <th>Statistiques par match</th>
+         </tr>
+     </tfoot>
+     <tbody> <!-- Corps du tableau -->
+       <tr>
+         <td>02-03</td>
+         <td>Washington Wizards</td>
+         <td>82</td>
+         <td>37.0</td>
+         <td>20.0</td>
+         <td>44%</td>
+         <td>29%</td>
+         <td>82%</td>
+         <td><a href="#1">Plus de stats</a></td>
+       </tr>
+
+       <tr>
+         <td>01-02</td>
+         <td>Washington Wizards</td>
+         <td>60</td>
+         <td>34.9</td>
+         <td>22.9</td>
+         <td>42%</td>
+         <td>19%</td>
+         <td>79%</td>
+         <td><a href="#2">Plus de stats</a></td>
+       </tr>
+
+       <tr>
+         <td>97-98</td>
+         <td>Chicago Bulls</td>
+         <td>82</td>
+         <td>38.8</td>
+         <td>28.7</td>
+         <td>47%</td>
+         <td>24%</td>
+         <td>78%</td>
+         <td><a href="#3">Plus de stats</a></td>
+       </tr>
+
+       <tr>
+         <td>96-97</td>
+         <td>Chicago Bulls</td>
+         <td>82</td>
+         <td>37.9</td>
+         <td>29.6</td>
+         <td>49%</td>
+         <td>37%</td>
+         <td>83%</td>
+         <td><a href="#4">Plus de stats</a></td>
+       </tr>
+
+       <tr>
+         <td>95-96</td>
+         <td>Chicago Bulls</td>
+         <td>82</td>
+         <td>37.7</td>
+         <td>30.4</td>
+         <td>50%</td>
+         <td>43%</td>
+         <td>83%</td>
+         <td><a href="#5">Plus de stats</a></td>
+       </tr>
+
+       <tr>
+         <td>94-95</td>
+         <td>Chicago Bulls</td>
+         <td>17</td>
+         <td>39.3</td>
+         <td>26.9</td>
+         <td>41%</td>
+         <td>50%</td>
+         <td>80%</td>
+         <td><a href="#6">Plus de stats</a></td>
+       </tr>
+
+       <tr>
+         <td>92-93</td>
+         <td>Chicago Bulls</td>
+         <td>78</td>
+         <td>39.3</td>
+         <td>32.6</td>
+         <td>50%</td>
+         <td>35%</td>
+         <td>84%</td>
+         <td><a href="#7">Plus de stats</a></td>
+       </tr>
+
+       <tr>
+         <td>91-92</td>
+         <td>Chicago Bulls</td>
+         <td>80</td>
+         <td>38.8</td>
+         <td>30.1</td>
+         <td>52%</td>
+         <td>27%</td>
+         <td>83%</td>
+         <td><a href="#8">Plus de stats</a></td>
+       </tr>
+
+       <tr>
+         <td>90-91</td>
+         <td>Chicago Bulls</td>
+         <td>82</td>
+         <td>37.0</td>
+         <td>31.5</td>
+         <td>54%</td>
+         <td>31%</td>
+         <td>85%</td>
+         <td><a href="#9">Plus de stats</a></td>
+       </tr>
+
+       <tr>
+         <td>89-90</td>
+         <td>Chicago Bulls</td>
+         <td>82</td>
+         <td>39.0</td>
+         <td>33.6</td>
+         <td>53%</td>
+         <td>38%</td>
+         <td>85%</td>
+         <td><a href="#10">Plus de stats</a></td>
+       </tr>
+
+       <tr>
+         <td>88-89</td>
+         <td>Chicago Bulls</td>
+         <td>81</td>
+         <td>40.2</td>
+         <td>32.5</td>
+         <td>54%</td>
+         <td>28%</td>
+         <td>85%</td>
+         <td><a href="#11">Plus de stats</a></td>
+       </tr>
+
+       <tr>
+         <td>87-88</td>
+         <td>Chicago Bulls</td>
+         <td>82</td>
+         <td>40.4</td>
+         <td>35</td>
+         <td>54%</td>
+         <td>13%</td>
+         <td>84%</td>
+         <td><a href="#12">Plus de stats</a></td>
+       </tr>
+
+       <tr>
+         <td>86-87</td>
+         <td>Chicago Bulls</td>
+         <td>82</td>
+         <td>40.0</td>
+         <td>37.1</td>
+         <td>48%</td>
+         <td>18%</td>
+         <td>86%</td>
+         <td><a href="#13">Plus de stats</a></td>
+       </tr>
+
+       <tr>
+         <td>85-86</td>
+         <td>Chicago Bulls</td>
+         <td>18</td>
+         <td>21.5</td>
+         <td>22.7</td>
+         <td>46%</td>
+         <td>17%</td>
+         <td>84%</td>
+         <td><a href="#14">Plus de stats</a></td>
+       </tr>
+
+       <tr>
+         <td>84-85</td>
+         <td>Chicago Bulls</td>
+         <td>82</td>
+         <td>38.3</td>
+         <td>28.2</td>
+         <td>52%</td>
+         <td>17%</td>
+         <td>84%</td>
+         <td><a href="#15">Plus de stats</a></td>
+       </tr>
+
+     </tbody>
+  </table>
+
+</body>
+</html>

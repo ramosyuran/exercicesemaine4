@@ -1,0 +1,16 @@
+*{
+  font-family: times, serif;
+}
+
+h2{
+  color: green;
+  text-decoration: underline;
+}
+
+h1{
+  text-align: center;
+}
+
+section{
+  margin: 4em;
+}
